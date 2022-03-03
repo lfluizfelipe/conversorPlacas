@@ -32,6 +32,7 @@ body {
   }
   
   .input-container {
+    font-family: sans-serif;
     align-items: center;
     height: 50px;
     position: relative;
@@ -49,6 +50,7 @@ body {
     box-sizing: border-box;
     color: #eee;
     font-size: 18px;
+    text-transform: uppercase;
     height: 100%;
     outline: 0;
     padding: 4px 20px 0;
@@ -120,9 +122,10 @@ body {
     background-color: #06b;
   }
 
-  .resultado {
+  .res {
     color: #eee;
     font-family: sans-serif;
+    text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
     margin-top: 15px;
